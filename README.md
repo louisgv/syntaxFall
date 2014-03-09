@@ -1,4 +1,5 @@
-wording_game
-============
+##Syntax Fall
 
-Words Falling Out of the Sky!  Type the words to earn points before it falls to the ground.
+JavaScript Syntax is Falling, Type them!
+
+Fork from Word falling.
