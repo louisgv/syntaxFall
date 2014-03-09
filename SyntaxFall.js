@@ -1,9 +1,6 @@
 /***************************************************************
 *
-*	Title: Simple Word Game (words falling out of the sky!)
-*   Created by : Michael Choi
-*   Place: CodingDojo
-*	Date: September 2013
+*	Syntax Fall
 *
 ****************************************************************/
 
@@ -93,7 +90,9 @@ function PlayGround(selector, selector_word, selector_score)
 
 function Word(id)
 {
-	var words = ["Coding", "Dojo", "awesome", "rocks", "amazing"];
+	var words = [
+	"<html>", "<script>", "<p>", "<canvas>", "<head>", "<body>", "<!DOCTYPE html>"
+	];
 	this.x = 0;
 	this.y = 0;
 	this.id = id;
@@ -106,3 +105,7 @@ function Word(id)
 		this.x = x_min + random_x_index;
 	}
 }
+
+/**  
+Credit Legacy : Michael Choi
+*/
