@@ -90,9 +90,7 @@ function PlayGround(selector, selector_word, selector_score)
 
 function Word(id)
 {
-	var words = [
-	"<html>", "<script>", "<p>", "<canvas>", "<head>", "<body>", "<!DOCTYPE html>"
-	];
+	var words = ["<html>", "<script>", "<p>", "<canvas>", "<head>", "<body>", "<!DOCTYPE html>"];
 	this.x = 0;
 	this.y = 0;
 	this.id = id;
