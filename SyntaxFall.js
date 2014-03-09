@@ -2,6 +2,7 @@
 *
 *	Syntax Fall
 *
+*	Credit Legacy : Michael Choi || Coding Dojo
 ****************************************************************/
 
 function PlayGround(selector, selector_word, selector_score)
@@ -105,5 +106,4 @@ function Word(id)
 }
 
 /**
-Credit Legacy : Michael Choi
 **/
